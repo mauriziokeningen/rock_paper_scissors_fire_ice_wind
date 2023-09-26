@@ -1,0 +1,254 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+.vector2 {
+    left: 32%;
+    position: absolute;
+    top: 480px;
+    width: 507px;
+    height: 67px;
+    z-index: 1;
+  }
+
+
+.Resultado{
+    position:absolute;
+    top: 0px;
+    width: 99%;
+    flex-shrink: 0;
+    color: var(--black, #1B1B1B);
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 86.245px; /* 89.838% */
+}
+.Yourchoice{
+    position: absolute;
+    top: 100px;
+    width: 618px;
+    height: 175px;
+    flex-shrink: 0;
+    color: var(--black, #1B1B1B);
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 86.245px; /* 89.838% */
+}
+.CPUchoice{
+    position:absolute;
+    top: 100px;
+    left: 810px;
+    width: 618px;
+    height: 175px;
+    flex-shrink: 0;
+    color: var(--black, #1B1B1B);
+    text-align: center;
+    font-family: 'Patrick Hand';
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 86.245px; /* 89.838% */
+}
+.vs{
+    position:absolute;
+    top: 34%;
+    width: 99%;
+    flex-shrink: 0;
+    color: var(--black, #1B1B1B);
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 86.245px; /* 89.838% */   
+}
+
+
+.vector {
+    height: 247px;
+    left: 165px;
+    position: absolute;
+    top: 500px;
+    width: 1119px;
+  }
+
+  .rock {
+    width: 96.613px;
+    height: 92.669px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 560px;
+    left: 260px;
+  }
+
+  .paper {
+    width: 96.613px;
+    height: 92.669px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 560px;
+    left: 400px;
+  }
+
+  .scissors {
+    width: 96.613px;
+    height: 92.669px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 560px;
+    left: 540px;
+  }
+
+  .fire {
+    width: 96.613px;
+    height: 92.669px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 560px;
+    left: 680px;
+  }
+
+  .ice {
+    width: 96.613px;
+    height: 92.669px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 560px;
+    left: 820px;
+  }
+
+  .wind {
+    width: 96.613px;
+    height: 84.669px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 560px;
+    left: 960px;
+  }
+
+  .water {
+    width: 96.613px;
+    height: 92.669px;
+    flex-shrink: 0;
+    position: absolute;
+    top: 560px;
+    left: 1100px;
+  }
+
+  /* Estilos para el contenedor de los botones */
+.choices-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Estilos para los botones de elección */
+.choiceButton {
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.choiceButton.selected {
+    background-color: #3498db;
+    color: white;
+}
+
+.choiceButton img {
+    width: 96.613px;
+    height: 92.669px;
+    margin-right: 10px;
+}
+.player {
+    position:absolute;
+    top: 100px;
+    left:220px;
+    width: 196.613px;
+    height: 192.669px;
+    margin-right: 10px;
+}
+.CPU {
+    position:absolute;
+    top: 100px;
+    left: 220px;
+    width: 196.613px;
+    height: 192.669px;
+    margin-right: 10px;
+}
+.Selecciona{
+
+        position:absolute;
+        top: -12px;
+        width: 99%;
+        flex-shrink: 0;
+        color: var(--black, #1B1B1B);
+        text-align: center;
+        font-family: 'Patrick Hand', cursive;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 86.245px; /* 89.838% */
+    
+}
+
+.choice{
+
+    position:relative;
+    top: 590px;
+    left: 10px;
+    width: 99%;
+    margin-right: 40px;
+    flex-shrink: 0;
+    color: var(--black, #1B1B1B);
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 86.245px; /* 89.838% */
+
+}
+
+.playerchoice2{
+    position:relative;
+    top: 190px;
+    left: 10px;
+    width: 99%;
+    margin-right: 40px;
+    flex-shrink: 0;
+    color: var(--black, #1B1B1B);
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 86.245px; /* 89.838% */
+}
+
+.computerchoice2{
+    position:relative;
+    top: 190px;
+    left: 10px;
+    width: 99%;
+    margin-right: 40px;
+    flex-shrink: 0;
+    color: var(--black, #1B1B1B);
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 86.245px; /* 89.838% */
+
+}

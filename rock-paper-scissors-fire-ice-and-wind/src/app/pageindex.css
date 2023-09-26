@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+.linea1{
+    position: fixed;
+    top: 2%;
+    width: 100%;
+    height: 1px;
+    background: #000;
+}
+.linea2{
+    position: fixed;
+    left: 1%;
+    width: 1px;
+    height: 100%;
+    background: #000;
+}
+.linea3{
+    position: fixed;
+    top: 98%;
+    width: 100%;
+    height: 1px;
+    background: #000;
+}
+.linea4{
+    position: fixed;
+    left: 99%;
+    width: 1px;
+    height: 100%;
+    background: #000;
+}
+
+.scissorsinit{
+    position: fixed;
+    top: 14px;
+    flex: 30px;
+    width: 350px;
+    height: 350px;
+    flex-shrink: 0;
+}
+
+.waterinit{
+    position: fixed;
+    top: 30px;
+    left: 45.5%;
+    flex: 30px;
+    width: 116px;
+    height: 138px;
+    flex-shrink: 0;
+}
+
+.paperinit{
+    position: fixed;
+    top: 60px;
+    left: 77%;
+    flex: 30px;
+    width: 219px;
+    height: 219px;
+    transform: rotate(10.5deg);
+    flex-shrink: 0;
+}
+
+.fireinit{
+    position: fixed;
+    top: 350px;
+    left: 82%;
+    width: 175px;
+    height: 197px;
+    transform: rotate(-7.5deg);
+    flex-shrink: 0;
+}
+
+.rockinit{
+    position: fixed;
+    top: 530px;
+    left: 67.5%;
+
+    width: 170px;
+    height: 230px;
+    flex-shrink: 0;
+}
+
+.iceinit{
+    position: fixed;
+    top: 580px;
+    left: 40%;
+
+    width: 177px;
+    height: 145px;
+    transform: rotate(6.5deg);
+    flex-shrink: 0;
+}
+
+.windinit{
+    position: fixed;
+    top: 450px;
+    left: 10%;
+
+    width: 240px;
+    height: 231px;
+    transform: rotate(-1.603deg);
+    flex-shrink: 0;
+}
+
+.tittle{
+    position: absolute;
+    top: 38%;
+    left: 17.5%;
+    color: var(--black, #1B1B1B);
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 54.764px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 86.245px; /* 127.273% */
+}
+
+.playbutton{
+    position:absolute;
+    top: 100px;
+    left: 25%;
+    display: flex;
+    width: 440px;
+    height: 20px;
+    padding: 26.962px 30.283px;
+    justify-content: center;
+    align-items: center;
+    gap: 24.641px;
+    flex-shrink: 0;
+    border-radius: 24.641px;
+    border: 9.241px solid var(--black, #1B1B1B);
+    background: var(--white, #FFF);
+    cursor: pointer;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40.764px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 86.245px; /* 127.273% */
+    }
+

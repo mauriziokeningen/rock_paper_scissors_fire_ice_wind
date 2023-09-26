@@ -1,1 +1,2 @@
-# rock_paper_scissors_fire_ice_wind
+# Rock-Paper-Scissors-Fire-ice-and-wind-
+ SoftServe
